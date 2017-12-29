@@ -1,0 +1,4 @@
+#!/bin/bash
+#以root身份copy repo 到/usr/bin
+cd ~/oos_team/common/bin
+cp repo /usr/bin/

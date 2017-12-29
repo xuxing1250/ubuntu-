@@ -1,0 +1,7 @@
+#!/bin/bash
+#自动clone doker:oos_team
+cd ~
+git clone doker:oos_team && scp -p doker:hooks/commit-msg oos_team/.git/hooks/
+cd ~/oos_team
+git pull
+git rebase

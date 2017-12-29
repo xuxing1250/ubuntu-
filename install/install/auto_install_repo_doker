@@ -1,0 +1,6 @@
+#!/bin/bash
+#自动repo：doker mocor_sc9832项目到～/work
+mkdir -p ~/work/mocor_sc9832
+cd ~/work/mocor_sc9832
+repo init -u doker:mocor_sc9832/manifest
+repo sync -j10
